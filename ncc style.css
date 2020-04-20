@@ -1,30 +1,30 @@
 @font-face{
-    src: url(fonts/LeagueScript.otf);
+    src: url(Fonts/LeagueScript.otf);
     font-family: ls;
 }
 
 @font-face{
-    src: url(fonts/CaviarDreams.ttf);
+    src: url(Fonts/CaviarDreams.ttf);
     font-family: cd;
 }
 
 @font-face{
-    src: url(fonts/AlexBrushRegular.ttf);
+    src: url(Fonts/AlexBrushRegular.ttf);
     font-family: abr;
 }
 
 @font-face{
-    src: url(fonts/CDBI.ttf);
+    src: url(Fonts/CDBI.ttf);
     font-family: cdbi;
 }
 
 @font-face{
-    src: url(fonts/CDBold.ttf);
+    src: url(Fonts/CDBold.ttf);
     font-family: cdb;
 }
 
 @font-face{
-    src: url(fonts/CDItalic.ttf);
+    src: url(Fonts/CDItalic.ttf);
     font-family: cdi;
 }
 

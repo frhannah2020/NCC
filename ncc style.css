@@ -1,0 +1,288 @@
+@font-face{
+    src: url(fonts/LeagueScript.otf);
+    font-family: ls;
+}
+
+@font-face{
+    src: url(fonts/CaviarDreams.ttf);
+    font-family: cd;
+}
+
+@font-face{
+    src: url(fonts/AlexBrushRegular.ttf);
+    font-family: abr;
+}
+
+@font-face{
+    src: url(fonts/CDBI.ttf);
+    font-family: cdbi;
+}
+
+@font-face{
+    src: url(fonts/CDBold.ttf);
+    font-family: cdb;
+}
+
+@font-face{
+    src: url(fonts/CDItalic.ttf);
+    font-family: cdi;
+}
+
+
+body {
+    background-color: #EEE;
+    font-family: cd;
+    background-image: url(pi.jpg)
+}
+    
+a{
+    text-decoration: none;
+    color: #B453C1;
+}
+
+h1 {
+    margin: 0;
+    font-family: abr;
+    font-weight: 300;
+   text-shadow: 5px 2px 6px black;
+}
+
+h2, h3{
+      margin: 0;
+    font-family: ;
+    font-weight: 300;
+        font-family: cdb;
+        text-align: center;
+
+
+}
+        
+#container{
+    background-color: #F6DDCC;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    
+    
+}
+
+
+#header {
+    background-image: url(We.jpg);
+    background-color: #D7BDE2;
+    color: #FDFEFE;
+    text-align: center;
+    padding: 100px;
+    font-size: 200%;
+
+   
+}
+
+
+#isi{
+    padding: 10px;
+
+    font-family: cd;
+
+}
+
+#nav ul {
+ list-style-type: none;
+ margin: 1px;
+ padding: 1px;
+ overflow: hidden;
+ background-color: #D7BDE2;
+    top: 0;
+    width: 100%;
+}
+
+
+#nav li {
+ float: left;
+ border-right: 2px solid white;
+ 
+}
+
+#nav li:last-child { 
+ border-right: none;
+border-left: 2px solid white;
+}
+
+
+#nav li a {
+ display: block;
+ color: white;
+ text-align: left;
+ padding: 15px 50px;
+ text-decoration: none;
+}
+
+
+#nav li a:hover {
+ background-color: #7300ff;
+}
+
+
+#nav. active {
+ background-color: #d61d1d;
+}
+
+
+#tepi{
+    
+    width: 30%;
+    float: right;
+    text-align: center;
+    padding: 15;
+    font-size: 15px;
+    margin-top: 70px;
+    margin-right: 25px;
+    line-height: 1.5;
+
+}
+
+#tepi ul{
+  right: 40%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin-top: 200px;
+  display: grid;
+    width: inherit;
+    
+
+}
+#tepi ul li{
+  list-style: none;
+  margin: 0 12px;
+}
+#tepi ul li .fa{
+  color: #000;
+  font-size: 25px;
+  line-height: 60px;
+  transition: .5s;
+}
+
+#tepi ul li .fa:hover{
+  color: #fff;
+}
+#tepi ul li a{
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0, 0px);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+#tepi ul li a:hover{
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+#tepi ul li:nth-child(1) a:hover{
+  background: #3b5998;
+}
+#tepi ul li:nth-child(2) a:hover{
+  background: #55acee;
+}
+#tepi ul li:nth-child(3) a:hover{
+  background: #e4405f;
+}
+#tepi ul li:nth-child(4) a:hover{
+  background: #cd201f;
+}
+#tepi ul li:nth-child(5) a:hover{
+  background: #0077b5;
+}
+
+
+#karangan{
+    width: 60%;
+    float: left;
+       line-height: 2;
+    font-weight: 250;
+
+}
+
+#komen{
+    width: 600px;
+    float: left; 
+}
+
+textarea {
+    
+width: 120%;
+    height: 100px;
+ padding: 15px 22px;
+ box-sizing: border-box;
+ border: 4px solid #ccc;
+ border-radius: 5px;
+ background-color: white;
+ resize: none;  
+}
+
+.button {
+    
+    background-color: purple;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.3;
+    position: relative;
+    overflow: hidden;
+    font-family: cd;
+    
+}
+.button:after {
+    content: "";
+    background: #f441f1;
+    display: block;
+    position: absolute;
+    padding-top: 290%;
+    padding-left: 340%;
+    margin-left: -25px;
+    margin-top: -130%;
+    opacity: 0;
+    transition: all 0.9s
+}
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+div.gallery {
+ margin: 10px;
+ border: 2px solid white;
+ float: inherit;
+ width: 200px;
+}
+div.gallery img {
+ width: 100%;
+ height: auto;
+}
+div.desc {
+ padding: 15px;
+ text-align: center;
+}
+
+
+
+
+#footer{
+    clear: both;
+    padding: 50px;
+    background-color: #AEB6BF;
+    color: black;
+    text-align:center;
+    font-size: 15px;
+
+}

@@ -47,15 +47,21 @@ h1 {
    text-shadow: 5px 2px 6px black;
 }
 
-h2, h3{
-      margin: 0;
-    font-family: ;
+h3, h4{
+      margin-top: 20px;
+    font-family: cdbi;
     font-weight: 300;
-        font-family: cdb;
-        text-align: center;
-
-
+        text-align: left;
 }
+
+h2, {
+    font-size: small;
+    color: gray;
+    
+    
+}
+
+
         
 #container{
     background-color: #F6DDCC;
@@ -238,6 +244,7 @@ width: 120%;
     position: relative;
     overflow: hidden;
     font-family: cd;
+    margin-bottom: 20px;
     
 }
 .button:after {
